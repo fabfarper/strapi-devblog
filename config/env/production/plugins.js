@@ -13,8 +13,8 @@ module.exports = ({ env }) => ({
       },
       secure: true,
       settings: {
-        defaultFrom: "fabio.fariapereira@smile.fr",
-        defaultReplyTo: "fabio.fariapereira@smile.fr",
+        defaultFrom: "surfix@gmail.com",
+        defaultReplyTo: "surfix@gmail.com",
       },
     },
   },
