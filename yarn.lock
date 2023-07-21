@@ -1670,6 +1670,47 @@
     "@nodelib/fs.scandir" "2.1.5"
     "fastq" "^1.6.0"
 
+"@octokit/endpoint@^9.0.0":
+  "integrity" "sha512-szrQhiqJ88gghWY2Htt8MqUDO6++E/EIXqJ2ZEp5ma3uGS46o7LZAzSLt49myB7rT+Hfw5Y6gO3LmOxGzHijAQ=="
+  "resolved" "https://registry.npmjs.org/@octokit/endpoint/-/endpoint-9.0.0.tgz"
+  "version" "9.0.0"
+  dependencies:
+    "@octokit/types" "^11.0.0"
+    "is-plain-object" "^5.0.0"
+    "universal-user-agent" "^6.0.0"
+
+"@octokit/openapi-types@^18.0.0":
+  "integrity" "sha512-V8GImKs3TeQRxRtXFpG2wl19V7444NIOTDF24AWuIbmNaNYOQMWRbjcGDXV5B+0n887fgDcuMNOmlul+k+oJtw=="
+  "resolved" "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-18.0.0.tgz"
+  "version" "18.0.0"
+
+"@octokit/request-error@^5.0.0":
+  "integrity" "sha512-1ue0DH0Lif5iEqT52+Rf/hf0RmGO9NWFjrzmrkArpG9trFfDM/efx00BJHdLGuro4BR/gECxCU2Twf5OKrRFsQ=="
+  "resolved" "https://registry.npmjs.org/@octokit/request-error/-/request-error-5.0.0.tgz"
+  "version" "5.0.0"
+  dependencies:
+    "@octokit/types" "^11.0.0"
+    "deprecation" "^2.0.0"
+    "once" "^1.4.0"
+
+"@octokit/request@^8.1.1":
+  "integrity" "sha512-8N+tdUz4aCqQmXl8FpHYfKG9GelDFd7XGVzyN8rc6WxVlYcfpHECnuRkgquzz+WzvHTK62co5di8gSXnzASZPQ=="
+  "resolved" "https://registry.npmjs.org/@octokit/request/-/request-8.1.1.tgz"
+  "version" "8.1.1"
+  dependencies:
+    "@octokit/endpoint" "^9.0.0"
+    "@octokit/request-error" "^5.0.0"
+    "@octokit/types" "^11.1.0"
+    "is-plain-object" "^5.0.0"
+    "universal-user-agent" "^6.0.0"
+
+"@octokit/types@^11.0.0", "@octokit/types@^11.1.0":
+  "integrity" "sha512-Fz0+7GyLm/bHt8fwEqgvRBWwIV1S6wRRyq+V6exRKLVWaKGsuy6H9QFYeBVDV7rK6fO3XwHgQOPxv+cLj2zpXQ=="
+  "resolved" "https://registry.npmjs.org/@octokit/types/-/types-11.1.0.tgz"
+  "version" "11.1.0"
+  dependencies:
+    "@octokit/openapi-types" "^18.0.0"
+
 "@pmmmwh/react-refresh-webpack-plugin@0.5.10":
   "integrity" "sha512-j0Ya0hCFZPd4x40qLzbhGsh9TMtdb+CJQiso+WxLOPNasohq9cc5SNUcwsZaRH6++Xh91Xkm/xHCkuIiIu0LUA=="
   "resolved" "https://registry.npmjs.org/@pmmmwh/react-refresh-webpack-plugin/-/react-refresh-webpack-plugin-0.5.10.tgz"
@@ -2509,6 +2550,14 @@
   "integrity" "sha512-Bz9xFWPzUyJPRrtJ9kfDUIo1jAeT8mue9lc4JoGoAqoS+9mThLO07VxB78nfFBvj9zluSUjCJd54Gjnz20eEMg=="
   "resolved" "https://registry.npmjs.org/@strapi/provider-audit-logs-local/-/provider-audit-logs-local-4.11.4.tgz"
   "version" "4.11.4"
+
+"@strapi/provider-email-nodemailer@^4.11.7":
+  "integrity" "sha512-3nPd7tiJGPM1y9H0WXlqs/+MJfLbA4MO4UGPr3mJ2SZu5JvF5kjwnQ9+S5sXTnLpjvHNwXozQ70knJBxmEfdyQ=="
+  "resolved" "https://registry.npmjs.org/@strapi/provider-email-nodemailer/-/provider-email-nodemailer-4.11.7.tgz"
+  "version" "4.11.7"
+  dependencies:
+    "lodash" "4.17.21"
+    "nodemailer" "6.9.1"
 
 "@strapi/provider-email-sendmail@4.11.4":
   "integrity" "sha512-zLBru5wiTEjNrclwQJFUcXt6yWcOqDqauD//dMxuiCctylnNyQqNsyMAi7a7/kOdqz7G2XLSp8oTKiKXqZVNag=="
@@ -4810,6 +4859,11 @@
   "integrity" "sha512-7emPTl6Dpo6JRXOXjLRxck+FlLRX5847cLKEn00PLAgc3g2hTZZgr+e4c2v6QpSmLeFP3n5yUo7ft6avBK/5jQ=="
   "resolved" "https://registry.npmjs.org/depd/-/depd-1.1.2.tgz"
   "version" "1.1.2"
+
+"deprecation@^2.0.0":
+  "integrity" "sha512-xmHIy4F3scKVwMsQ4WnVaS8bHOx0DmVwRywosKhaILI0ywMDWPtBSku2HNxRvF7jtwDRsoEwYQSfbxj8b7RlJQ=="
+  "resolved" "https://registry.npmjs.org/deprecation/-/deprecation-2.3.1.tgz"
+  "version" "2.3.1"
 
 "destroy@^1.0.4", "destroy@1.2.0":
   "integrity" "sha512-2sJGJTaXIIaR1w4iJSNoN0hnMY7Gpc/n8D4qSCJw8QqFWXf7cuAgnEHxBpweaVcPevC2l3KpjYCx3NypQQgaJg=="
@@ -7786,6 +7840,11 @@
   dependencies:
     "nodemailer-fetch" "1.6.0"
 
+"nodemailer@6.9.1":
+  "integrity" "sha512-qHw7dOiU5UKNnQpXktdgQ1d3OFgRAekuvbJLcdG5dnEo/GtcTHRYM7+UfJARdOFU9WUQO8OiIamgWPmiSFHYAA=="
+  "resolved" "https://registry.npmjs.org/nodemailer/-/nodemailer-6.9.1.tgz"
+  "version" "6.9.1"
+
 "noms@0.0.0":
   "integrity" "sha512-lNDU9VJaOPxUmXcLb+HQFeUgQQPtMI24Gt6hgfuMHRJgMRHMF/qZ4HJD3GDru4sSw9IQl2jPjAYnQrdIeLbwow=="
   "resolved" "https://registry.npmjs.org/noms/-/noms-0.0.0.tgz"
@@ -10198,6 +10257,11 @@
   "version" "2.0.0"
   dependencies:
     "crypto-random-string" "^2.0.0"
+
+"universal-user-agent@^6.0.0":
+  "integrity" "sha512-isyNax3wXoKaulPDZWHQqbmIx1k2tb9fb3GGDBRxCscfYV2Ch7WxPArBsFEG8s/safwXTT7H4QGhaIkTp9447w=="
+  "resolved" "https://registry.npmjs.org/universal-user-agent/-/universal-user-agent-6.0.0.tgz"
+  "version" "6.0.0"
 
 "universalify@^2.0.0":
   "integrity" "sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ=="
